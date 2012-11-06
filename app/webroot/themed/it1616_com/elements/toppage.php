@@ -5,11 +5,25 @@
     <?php $bcBaser->content() ?><!--TOPページ-->
 </div>
 <div id="top-okazaki"><?php $bcBaser->img('./top/top_taro.png',array('url' => '/okazakitarou')); ?></div>
-<div id="top-contents">
-	<div id="top-left">
-		<img alt="" src="/themed/it1616_com/img/top/top_itm.png" /><img alt="" src="/themed/it1616_com/img/top/top_ms.png" /></div>
-	<div id="top-right">
-		<img alt="" src="/themed/it1616_com/img/top/top_seminar.png" /><img alt="" src="/themed/it1616_com/img/top/top_books.png" /></div>
+<div id="top-contents01">
+    <div id="top-contents01-left">
+        <p class="top-contents">問題解決や企画力を培い<br />武器にする</p>
+        <p class="top-contents-link"><a href="/itm">>>もっと見る</a></p>
+    </div>
+    <div id="top-contents01-right">
+        <p class="top-contents">講師内容・社内研修<br />プログラムなど</p>
+        <p class="top-contents-link"><a href="/seminar">>>もっと見る</a></p>
+    </div>
+</div>
+<div id="top-contents02">
+    <div id="top-contents02-left">
+        <p class="top-contents">夢が見つかる心とタスクの<br />スケジュール帳</p>
+        <p class="top-contents-link"><a href="/m-sheet">>>もっと見る</a></p>
+    </div>
+    <div id="top-contents02-right">
+        <p class="top-contents">岡崎太郎の著書<br />セミナーCDのご紹介</p>
+        <p class="top-contents-link"><a href="/books">>>もっと見る</a></p>
+    </div>
 </div>
 
 <div id="top-magazine">

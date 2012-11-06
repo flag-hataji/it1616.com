@@ -1,11 +1,18 @@
-<div id="Newsback" style="padding: 0 0 0 30px;">
-<div style="padding-top:31px;"></div>
+<div >
+<div class="top-news-title">What's New!<span class="more"><a href="/news/">>>もっと見る</span></a></div>
 <?php foreach($posts as $post): ?>
-<div style="padding-top:31px;">
-	<p>
-		<span style="margin:0 15px 0 18px; line-height:150%; color:#6A0000;"><?php $blog->postDate($post,"Y年m月d日") ?></span>
-		<span><?php $blog->postTitle($post) ?></span>
-	</p>
+<div id="top-news-links">
+    <div class="top-news-new">
+        <?php $bcBaser->img("top/new.gif") ?>
+    </div>
+    <div class="top-news-txt">
+    <p>
+        <span><?php $blog->postDate($post,"Y/m/d") ?></span>
+    </p>
+    <p>
+        <span><?php $blog->postTitle($post) ?></span>
+    </p>
+    </div>
 </div>
 <?php endforeach; ?>
 </div>

@@ -7,7 +7,7 @@ body {
 
 a{
 	text-transform:none;
-	color:#333;
+        text-decoration: none;
 }
 #footer{
 	background:#F0F0F0;

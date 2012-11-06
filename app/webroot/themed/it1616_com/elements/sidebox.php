@@ -1,9 +1,9 @@
 
 <div class="clearfix">
 <div id="sidebox-app">
-<?php $bcBaser->link($bcBaser->getImg('side/app_01.png',array('title'=>'app01','alt'=>'アプリ01')),'/app01') ;?>
-<?php $bcBaser->link($bcBaser->getImg('side/app_02.png',array('title'=>'app02','alt'=>'アプリ02')),'/app02') ;?>
-<?php $bcBaser->link($bcBaser->getImg('side/right_motiv.png',array('title'=>'モチベーションシート','alt'=>'モチベーションシート')),'/ms') ;?>
+<?php $bcBaser->img('side/app_01.png',array('url' => '/app01')); ?>
+<?php $bcBaser->img('side/app_02.png',array('url' => '/app02')); ?>
+<?php $bcBaser->img('side/right_motiv.png',array('url' => '/m-sheet')); ?>
 </div>
 </div>
 <div id="facebook">
@@ -21,7 +21,7 @@
 <a class="twitter-timeline" href="https://twitter.com/TaroOkazaki" data-widget-id="261122237334163456">@TaroOkazaki からのツイート</a>
 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
 
-<div id="sidebox-contact"><?php $bcBaser->link($bcBaser->getImg('side/right_tel.png',array('title'=>'お問い合わせ','alt'=>'お問い合わせ')),'/contact') ;?></div>
+<div id="sidebox-contact"><?php $bcBaser->img('side/right_tel.png',array('url' => '/contact','alt'=>'お問い合わせ')); ?></div>
 
 <div id="sidebox-books">
     <div id="sidebox-books-top"><?php $bcBaser->Img('side/right_book_bg_top.png') ;?></div>

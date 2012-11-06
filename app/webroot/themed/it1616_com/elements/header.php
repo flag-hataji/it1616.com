@@ -1,4 +1,3 @@
-<div class="hline">
     <div id="Header">
         <?php //$bcBaser->element('search') ?>
         <div id="HeaderKakugen">
@@ -7,10 +6,3 @@
     </div><!--Header-->
 
     <?php $bcBaser->element('global_menu') ?>
-
-	<?php if(!$bcBaser->isTop()): ?>
-    	<div id="Navigation">
-    		<?php $bcBaser->element('navi',array('title_for_element'=>$bcBaser->getContentsTitle())); ?>
-    	</div>
-	<?php endif ?>
-</div><!--hline-->

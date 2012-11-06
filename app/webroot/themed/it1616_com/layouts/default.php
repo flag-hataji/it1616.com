@@ -38,8 +38,8 @@
 <div id="Page">
 
     <?php if($bcBaser->isTop()): ?>
-        <img src="/app/webroot/themed/it1616_com/img/itm_main_01.png" >
-    <?php endif; ?>
+        <?php $bcBaser->img("../img/itm_main_01.png") ?>
+    <?php endif ?>
 
     <div id="Wrap" class="clearfix">
         <div id="Alfa">
@@ -49,6 +49,9 @@
                 <?php $bcBaser->element('toppage') ?><!--TOPPAGE-->
             <?php else: ?>
                 <div style="padding-left:5px;"><!--それ以外ページ-->
+                    <div id="Navigation">
+                            <?php $bcBaser->element('navi',array('title_for_element'=>$bcBaser->getContentsTitle())); ?>
+                    </div>
                     <?php $bcBaser->content() ?>
                 </div>
             <?php endif ?>
@@ -72,7 +75,7 @@
             </div>
             <!-- end SideBar -->
         </div>
-        <div class="to-top"> <a href="#Page">このページの先頭へ戻る</a> </div>
+        <div class="to-top"> <a href="#Page">トップへ戻る</a> </div>
     </div><!--Wrarp-->
 
 </div>
