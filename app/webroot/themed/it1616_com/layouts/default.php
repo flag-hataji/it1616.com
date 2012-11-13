@@ -48,10 +48,10 @@
             <?php if($bcBaser->isTop()): ?>
                 <?php $bcBaser->element('toppage') ?><!--TOPPAGE-->
             <?php else: ?>
-                <div style="padding-left:5px;"><!--それ以外ページ-->
-                    <div id="Navigation">
-                            <?php $bcBaser->element('navi',array('title_for_element'=>$bcBaser->getContentsTitle())); ?>
-                    </div>
+                <div id="Navigation">
+                        <?php $bcBaser->element('navi',array('title_for_element'=>$bcBaser->getContentsTitle())); ?>
+                </div>
+                <div id="subpage"  ><!--それ以外ページ-->
                     <?php $bcBaser->content() ?>
                 </div>
             <?php endif ?>
