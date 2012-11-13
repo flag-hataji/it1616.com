@@ -12,7 +12,7 @@ body {
 	marign:0;
 	padding:0;
 	font-size:14px;
-	line-height:1.6em;
+	line-height:1.4;
 }
 div {
 	marign:0;
@@ -143,6 +143,14 @@ a:hover img{
 	background-color:#FCF5EB;
 }
 
+hr {
+   border-width: 1px 0px 0px 0px; /* 太さ */
+   border-style: solid; /* 線種 */
+   border-color: #CCCCCC; /* 線色 */
+   height: 1px; /* 高さ */
+   margin:10px 0;
+}
+
 /* Page
 ----------------------------------------------- */
 #Page {
@@ -256,6 +264,15 @@ div.vrthead div {
 }
 /* Contents
 ----------------------------------------------- */
+
+#subpage{
+    background: #FFF;
+    border-radius: 4px 4px 4px 4px;
+    box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.075);
+    -moz-box-shadow : 0 0 2px 2px rgba(0, 0, 0, 0.05) ;
+    -webkit-box-shadow : 0 0 2px 2px rgba(0, 0, 0, 0.05) ;
+}
+
 h2.contents-head {
 /*	background:url(../img/titlebar.png) no-repeat left top; */
 	height:32px;
@@ -263,6 +280,16 @@ h2.contents-head {
 	font-weight:bold;
 	font-size:15px;
 	color:#555;
+}
+
+h3{
+    font-size: 24px;
+    border-bottom: 1px #CCCCCC solid;
+    font-weight: normal;
+    line-height: 3em;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    padding-left:20px;
 }
 
 h3.contents {
@@ -792,9 +819,9 @@ ul#Menu li a.m7:hover{opacity:0.8;}
     float: right;
 }
 #top-news-links{
-    padding-left:15px;
-    margin-bottom: 10px;
+    margin: 0 10px 15px 15px;
     overflow: auto;
+    border-bottom: 1px dotted #EEEEEE;
 }
 .top-news-new{
     float: left;
@@ -914,4 +941,15 @@ ul#Menu li a.m7:hover{opacity:0.8;}
 }
 .top-contents-link{
     padding-left:20px;
+}
+
+
+/*ms-pic*/
+#ms-pic{
+    background: #FAFAFA;
+    width:692px;
+    margin:0 auto;
+    border: 1px #E7E7E7 solid; 
+    border-radius: 4px 4px 4px 4px;
+
 }
