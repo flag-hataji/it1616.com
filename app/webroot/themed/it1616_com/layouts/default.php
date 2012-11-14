@@ -48,11 +48,20 @@
             <?php if($bcBaser->isTop()): ?>
                 <?php $bcBaser->element('toppage') ?><!--TOPPAGE-->
             <?php else: ?>
+<<<<<<< HEAD
                 <div id="subpage"  ><!--それ以外ページ-->
                     <div id="Navigation">
                             <?php $bcBaser->element('navi',array('title_for_element'=>$bcBaser->getContentsTitle())); ?>
                     </div>
+=======
+                <div id="Navigation">
+                        <?php $bcBaser->element('navi',array('title_for_element'=>$bcBaser->getContentsTitle())); ?>
+                </div>
+
+                <div id="subpage"  ><!--それ以外ページ-->
+>>>>>>> tmp1
                     <?php $bcBaser->content() ?>
+                    <div class="to-top"> <a href="#Page">トップへ戻る</a> </div>
                 </div>
             <?php endif ?>
 
@@ -75,7 +84,6 @@
             </div>
             <!-- end SideBar -->
         </div>
-        <div class="to-top"> <a href="#Page">トップへ戻る</a> </div>
     </div><!--Wrarp-->
 
 </div>
