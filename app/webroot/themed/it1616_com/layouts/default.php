@@ -51,8 +51,10 @@
                 <div id="Navigation">
                         <?php $bcBaser->element('navi',array('title_for_element'=>$bcBaser->getContentsTitle())); ?>
                 </div>
+
                 <div id="subpage"  ><!--それ以外ページ-->
                     <?php $bcBaser->content() ?>
+                    <div class="to-top"> <a href="#Page">トップへ戻る</a> </div>
                 </div>
             <?php endif ?>
 
@@ -75,7 +77,6 @@
             </div>
             <!-- end SideBar -->
         </div>
-        <div class="to-top"> <a href="#Page">トップへ戻る</a> </div>
     </div><!--Wrarp-->
 
 </div>

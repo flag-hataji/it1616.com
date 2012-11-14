@@ -160,7 +160,8 @@ class PluginsController extends AppController {
  * @access public
  */
 	function admin_index() {
-
+echo aaa;
+die;
 		$datas = $this->Plugin->find('all', array('order' => 'Plugin.name'));
 		if(!$datas) {
 			$datas = array();
