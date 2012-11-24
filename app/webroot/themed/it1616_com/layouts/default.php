@@ -18,7 +18,9 @@
 <?php $bcBaser->css('style1') ?>
 <?php //$bcBaser->css('bxslider') ?>
 <?php endif; ?>
-<?php $bcBaser->css(array('layout')) ?>
+<?php $bcBaser->css(array(
+    'layout',
+    'jquery.bxslider')) ?>
 <?php $bcBaser->js(array(
     'jquery-1.4.4.min',
     'jquery.easing',
@@ -26,6 +28,9 @@
     'script',
     'rollover',
     'jquery.bxSlider',
+    'jquery.bxslider.min',
+    'jquery.easing.1.3',
+    'jquery.fitvids',
     'startup')) ?>
 <?php $bcBaser->scripts() ?>
 <?php $bcBaser->element('google_analytics') ?>
@@ -48,18 +53,11 @@
             <?php if($bcBaser->isTop()): ?>
                 <?php $bcBaser->element('toppage') ?><!--TOPPAGE-->
             <?php else: ?>
-<<<<<<< HEAD
-                <div id="subpage"  ><!--それ以外ページ-->
-                    <div id="Navigation">
-                            <?php $bcBaser->element('navi',array('title_for_element'=>$bcBaser->getContentsTitle())); ?>
-                    </div>
-=======
                 <div id="Navigation">
                         <?php $bcBaser->element('navi',array('title_for_element'=>$bcBaser->getContentsTitle())); ?>
                 </div>
 
                 <div id="subpage"  ><!--それ以外ページ-->
->>>>>>> tmp1
                     <?php $bcBaser->content() ?>
                     <div class="to-top"> <a href="#Page">トップへ戻る</a> </div>
                 </div>

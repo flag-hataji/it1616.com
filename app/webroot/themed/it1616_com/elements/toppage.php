@@ -1,5 +1,18 @@
 <div id="top-books">
-<?php $bcBaser->img('./top/book_bg.png'); ?>
+
+<ul class="bxslider">
+  <li><?php $bcBaser->img('./top/bxslider/book_01.png',array('url' => '/book_01')); ?></li>
+  <li><?php $bcBaser->img('./top/bxslider/book_02.png',array('url' => '/book_01')); ?></li>
+  <li><?php $bcBaser->img('./top/bxslider/book_03.png',array('url' => '/book_01')); ?></li>
+  <li><?php $bcBaser->img('./top/bxslider/book_04.png',array('url' => '/book_01')); ?></li>
+  <li><?php $bcBaser->img('./top/bxslider/book_05.png',array('url' => '/book_01')); ?></li>
+  <li><?php $bcBaser->img('./top/bxslider/book_06.png',array('url' => '/book_01')); ?></li>
+  <li><?php $bcBaser->img('./top/bxslider/book_07.png',array('url' => '/book_01')); ?></li>
+  <li><?php $bcBaser->img('./top/bxslider/book_08.png',array('url' => '/book_01')); ?></li>
+  <li><?php $bcBaser->img('./top/bxslider/book_09.png',array('url' => '/book_01')); ?></li>
+  <li><?php $bcBaser->img('./top/bxslider/book_10.png',array('url' => '/book_01')); ?></li>
+</ul>
+    <?php  //$bcBaser->img('./top/book_bg.png'); ?>
 </div>
 <div>
     <?php $bcBaser->content() ?><!--TOPページ-->

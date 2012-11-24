@@ -777,8 +777,6 @@ ul#Menu li a.m7:hover{opacity:0.8;}
 
 
 /*top */
-#top-books{
-}
 #top-okazaki{
 	margin-top:20px;
 }
@@ -910,6 +908,9 @@ ul#Menu li a.m7:hover{opacity:0.8;}
 
 
 /*TOPPAGE*/
+#top-books{
+    width: 727px;
+}
 #top-contents01{
     margin-top:20px;
     overflow: auto;
