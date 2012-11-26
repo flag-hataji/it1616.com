@@ -9,8 +9,6 @@ if($freezed){
 }
 ?>
 
-<h2 class="contents-head" style="padding-bottom:20px;">
-<?php $bcBaser->img('tb_contact.png',array('alt'=>'お問合せ','width'=>'712px','height'=>'40px')) ?></h2>
 <?php if($freezed): ?>
 <h3 class="contents-head">入力内容の確認</h3>
 <p class="section">入力した内容に間違いがなければ「送信する」ボタンをクリックしてください。</p>

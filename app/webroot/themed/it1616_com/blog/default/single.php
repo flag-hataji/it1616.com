@@ -14,8 +14,6 @@ $(function(){
 });
 </script>
 
-<h2 >
-<?php $bcBaser->img('tb_news.png',array('alt'=>'新着情報','width'=>'712px','height'=>'40px')) ?></h2>
 <h3 class="contents-head" style="padding-left:15px;">
 	<?php $bcBaser->contentsTitle() ?>
 </h3>

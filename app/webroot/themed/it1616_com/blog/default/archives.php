@@ -13,13 +13,10 @@ $(function(){
 });
 </script>
 
-<h2 >
-<?php $bcBaser->img('tb_news.png',array('alt'=>'新着情報','width'=>'712px','height'=>'40px')) ?></h2>
-
 <h3 class="contents-head">
 	<?php $bcBaser->contentsTitle() ?>
 </h3>
-
+hogehoge
 <?php if(!empty($posts)): ?>
 <?php foreach($posts as $post): ?>
 <div class="post">

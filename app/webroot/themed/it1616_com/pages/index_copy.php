@@ -1,7 +1,7 @@
 <!-- BaserPageTagBegin -->
-<?php $bcBaser->setTitle('岡崎太郎オフィシャルサイト') ?>
+<?php $bcBaser->setTitle('岡崎太郎オフィシャルサイト_copy') ?>
 <?php $bcBaser->setDescription('岡崎太郎オフィシャルサイト') ?>
-<?php $bcBaser->setPageEditLink(1) ?>
+<?php $bcBaser->setPageEditLink(16) ?>
 <!-- BaserPageTagEnd -->
 <div id="top-news">
 	<div class="top-news" id="top-news-l">
@@ -9,12 +9,12 @@
 		<div class="top-news-title">
 			セミナースケジュール<span class="more"><a href="/news/">&gt;&gt;もっと見る</a></span></div>
 		<div id="top-news-links">
-			<table border="0" cellpadding="0" cellspacing="5" style="width: 330px;">
+			<table border="0" cellpadding="5" cellspacing="0" style="width: 330px;">
 				<tbody>
 					<tr>
-						<td style="vertical-align: top;">
+						<td>
 							<img alt="東京" src="/themed/it1616_com/img/top/tokyo.gif" style="width: 31px; height: 30px; " /></td>
-						<td style="vertical-align: top;">
+						<td>
 							2012/12/10<br />
 							19：00~21：00</td>
 						<td>
@@ -22,9 +22,9 @@
 							※特別一般公開</td>
 					</tr>
 					<tr>
-						<td style="vertical-align: top;">
+						<td>
 							<img alt="東京" src="/themed/it1616_com/img/top/fukuoka.gif" style="width: 31px; height: 30px; " /></td>
-						<td style="vertical-align: top;">
+						<td>
 							2012/12/10<br />
 							19：00~21：00</td>
 						<td>
@@ -32,9 +32,9 @@
 							※特別一般公開</td>
 					</tr>
 					<tr>
-						<td style="vertical-align: top;">
+						<td>
 							<img alt="東京" src="/themed/it1616_com/img/top/tokyo.gif" style="width: 31px; height: 30px; " /></td>
-						<td style="vertical-align: top;">
+						<td>
 							2012/12/10<br />
 							19：00~21：00</td>
 						<td>
@@ -42,11 +42,10 @@
 							※特別一般公開</td>
 					</tr>
 					<tr>
-						<td style="vertical-align: top;">
+						<td>
 							<img alt="東京" src="/themed/it1616_com/img/top/tokyo-fukuoka.gif" style="width: 31px; height: 30px; " /></td>
-						<td style="vertical-align: top;">
-							2012/12/10<br />
-							~12/15</td>
+						<td>
+							2012/12/10~12/15</td>
 						<td>
 							合同沖縄合宿</td>
 					</tr>

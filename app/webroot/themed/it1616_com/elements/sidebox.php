@@ -1,8 +1,8 @@
 
 <div class="clearfix">
 <div id="sidebox-app">
-<?php $bcBaser->img('side/app_01.png',array('url' => '/app01')); ?>
-<?php $bcBaser->img('side/app_02.png',array('url' => '/app02')); ?>
+<?php $bcBaser->img('side/app_01.png',array('url' => '/books/archives/4')); ?>
+<?php //$bcBaser->img('side/app_02.png',array('url' => '/app02')); ?>
 <?php $bcBaser->img('side/right_motiv.png',array('url' => '/m-sheet')); ?>
 </div>
 </div>

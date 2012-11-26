@@ -1,7 +1,9 @@
 <div id="top-books">
 
 <ul class="bxslider">
-  <li><?php $bcBaser->img('./top/bxslider/book_01.png',array('url' => '/book_01')); ?></li>
+  <li><?php $bcBaser->img('./top/bxslider/ureru.png',array('url' => '/books/archives/1')); ?></li>
+  <li><?php $bcBaser->img('./top/bxslider/moukaru.png',array('url' => '/books/archives/2')); ?></li>
+  <li><?php $bcBaser->img('./top/bxslider/gekiteki.png',array('url' => '/books/archives/3')); ?></li>
   <li><?php $bcBaser->img('./top/bxslider/book_02.png',array('url' => '/book_01')); ?></li>
   <li><?php $bcBaser->img('./top/bxslider/book_03.png',array('url' => '/book_01')); ?></li>
   <li><?php $bcBaser->img('./top/bxslider/book_04.png',array('url' => '/book_01')); ?></li>
@@ -10,7 +12,6 @@
   <li><?php $bcBaser->img('./top/bxslider/book_07.png',array('url' => '/book_01')); ?></li>
   <li><?php $bcBaser->img('./top/bxslider/book_08.png',array('url' => '/book_01')); ?></li>
   <li><?php $bcBaser->img('./top/bxslider/book_09.png',array('url' => '/book_01')); ?></li>
-  <li><?php $bcBaser->img('./top/bxslider/book_10.png',array('url' => '/book_01')); ?></li>
 </ul>
     <?php  //$bcBaser->img('./top/book_bg.png'); ?>
 </div>
@@ -48,15 +49,15 @@
     <div id="media-news-title">メディア・ニュース　<span>岡崎太郎が雑誌や新聞で紹介されました</span></div>
     <div id="media-news-con">
         <ul>
-            <li><?php $bcBaser->img('./top/media/media_01.png',array('url' => '/media_01')); ?></li>
-            <li><?php $bcBaser->img('./top/media/media_02.png',array('url' => '/media_02')); ?></li>
-            <li><?php $bcBaser->img('./top/media/media_03.png',array('url' => '/media_03')); ?></li>
-            <li><?php $bcBaser->img('./top/media/media_04.png',array('url' => '/media_04')); ?></li>
-            <li><?php $bcBaser->img('./top/media/media_05.png',array('url' => '/media_05')); ?></li>
-            <li><?php $bcBaser->img('./top/media/media_06.png',array('url' => '/media_06')); ?></li>
-            <li><?php $bcBaser->img('./top/media/media_07.png',array('url' => '/media_07')); ?></li>
-            <li><?php $bcBaser->img('./top/media/media_08.png',array('url' => '/media_08')); ?></li>
-            <li><?php $bcBaser->img('./top/media/media_09.png',array('url' => '/media_09')); ?></li>
+            <li><?php $bcBaser->img('./top/media/media_01.png',array('url' => '/news')); ?></li>
+            <li><?php $bcBaser->img('./top/media/media_02.png',array('url' => '/news')); ?></li>
+            <li><?php $bcBaser->img('./top/media/media_03.png',array('url' => '/news')); ?></li>
+            <li><?php $bcBaser->img('./top/media/media_04.png',array('url' => '/news')); ?></li>
+            <li><?php $bcBaser->img('./top/media/media_05.png',array('url' => '/news')); ?></li>
+            <li><?php $bcBaser->img('./top/media/media_06.png',array('url' => '/news')); ?></li>
+            <li><?php $bcBaser->img('./top/media/media_07.png',array('url' => '/news')); ?></li>
+            <li><?php $bcBaser->img('./top/media/media_08.png',array('url' => '/news')); ?></li>
+            <li><?php $bcBaser->img('./top/media/media_09.png',array('url' => '/news')); ?></li>
         </ul>
     </div>
 </div>

@@ -59,7 +59,7 @@
 
                 <div id="subpage"  ><!--それ以外ページ-->
                     <?php $bcBaser->content() ?>
-                    <div class="to-top"> <a href="#Page">トップへ戻る</a> </div>
+                    <div class="to-top"> <a href="#Page">ページトップへ戻る</a> </div>
                 </div>
             <?php endif ?>
 

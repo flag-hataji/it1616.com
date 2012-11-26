@@ -16,9 +16,9 @@ $(function(){
 
 <!-- blog description -->
 <?php if($blog->descriptionExists()): ?>
-<p class="blog-description">
+<div class="blog-description">
 	<?php $blog->description() ?>
-</p>
+</div>
 <?php endif ?>
 
 <?php if(!empty($posts)): ?>
@@ -27,7 +27,7 @@ $(function(){
 	<h4 class="contents-head">
 		<?php $blog->postTitle($post) ?>
 	</h4>
-	<?php $blog->postContent($post,true,true) ?>
+	<?php $blog->postContent($post,false,true) ?>
 	<div class="meta"> <span>
 		<?php $blog->category($post) ?>
 		&nbsp;
