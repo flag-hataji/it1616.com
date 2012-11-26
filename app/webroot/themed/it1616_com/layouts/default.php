@@ -43,7 +43,8 @@
 <div id="Page">
 
     <?php if($bcBaser->isTop()): ?>
-        <?php $bcBaser->img("../img/itm_main_01.png") ?>
+        <div><?php $bcBaser->img("../img/itm_main_01.png") ?></div>
+        <div id="socialbuttons"><?php echo $bcBaser->getSocialButtons() ?></div>
     <?php endif ?>
 
     <div id="Wrap" class="clearfix">

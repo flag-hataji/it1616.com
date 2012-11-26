@@ -14,6 +14,11 @@ body {
 	font-size:14px;
 	line-height:1.4;
 }
+p, h1, h2, h3, h4, h5, h6, h7 {
+    font-size: 100%;
+    margin: 0;
+    font-weight: normal;
+}
 div {
 	marign:0;
 	padding:0;
@@ -181,7 +186,6 @@ hr {
 }
 
 #Wrap{
-    margin-top: 20px;
 }
 .to-top {
     text-align:right;
@@ -418,9 +422,9 @@ h4.contents-head {
 #Navigation {
     background: #FFF;
     border-radius: 4px 4px 4px 4px;
-    box-shadow: 0 0 1px 2px rgba(0, 0, 0, 0.075);
-    -moz-box-shadow : 0 0 1px 2px rgba(0, 0, 0, 0.05) ;
-    -webkit-box-shadow : 0 0 1px 2px rgba(0, 0, 0, 0.05) ;
+    box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.075);
+    -moz-box-shadow : 0 0 2px 1px rgba(0, 0, 0, 0.05) ;
+    -webkit-box-shadow : 0 0 2px 1px rgba(0, 0, 0, 0.05) ;
     margin-bottom: 10px;
     margin-top:3px;
     padding:2px 0 2px 10px;
@@ -847,9 +851,9 @@ ul#Menu li a.m7:hover{opacity:0.8;}
     min-height: 300px;
     border: 1px #EEE solid;
     border-radius:4px;
-    box-shadow:  0 1px 1px 1px rgba(0, 0, 0, 0.03) ;
-    -moz-box-shadow : 0 1px 1px 1px  rgba(0, 0, 0, 0.03) ;
-    -webkit-box-shadow : 0 1px 1px 1px rgba(0, 0, 0, 0.03) ;
+    box-shadow:  0 0 2px 1px rgba(0, 0, 0, 0.03) ;
+    -moz-box-shadow : 0 0 2px 1px  rgba(0, 0, 0, 0.03) ;
+    -webkit-box-shadow : 0 0 2px 1px rgba(0, 0, 0, 0.03) ;
 }
 .top-news-title{
     font-size:20px;
@@ -944,9 +948,30 @@ ul#Menu li a.m7:hover{opacity:0.8;}
 
 
 /*TOPPAGE*/
+#socialbuttons{
+    margin: 5px 0;
+    overflow: auto;
+}
+
 #top-books{
     width: 727px;
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #EEEEEE;
+    border-radius: 4px 4px 4px 4px;
+    box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.03);
+    -moz-box-shadow : 0 0 2px 1px rgba(0, 0, 0, 0.03) ;
+    -webkit-box-shadow : 0 0 2px 1px rgba(0, 0, 0, 0.03) ;
 }
+#books-title{
+    font-size: 20px;
+    margin: 10px;
+}
+
+#books-title .more {
+    float: right;
+    font-size: 12px;
+}
+
 #top-contents01{
     margin-top:20px;
     overflow: auto;

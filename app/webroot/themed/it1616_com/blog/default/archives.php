@@ -16,7 +16,6 @@ $(function(){
 <h3 class="contents-head">
 	<?php $bcBaser->contentsTitle() ?>
 </h3>
-hogehoge
 <?php if(!empty($posts)): ?>
 <?php foreach($posts as $post): ?>
 <div class="post">

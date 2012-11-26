@@ -1,0 +1,101 @@
+@charset "UTF-8";
+/* BaserCMS用　プラグイン
+ *
+ * @name            ソーシャルボタン
+ *
+ * @link			http://mani-lab.com   mani-lab
+ * @version			0.9.0
+ * @lastmodified	2012-07-09
+ */
+
+/********************************************
+**
+**　CSS
+**
+********************************************/
+
+
+
+/* clearfix
+-------------------------------------------*/
+.SBClearfix:after {
+    content: "."; 
+    display: block; 
+    height: 0; 
+    clear: both; 
+    visibility: hidden;
+}
+
+.SBClearfix {display: inline-block;}
+
+* html .SBClearfix {height: 1%;}
+
+.SBClearfix {display: block;}
+
+
+
+/* type mini
+-------------------------------------------*/
+#twitterMini {width:90px; float:left;}
+#facebook_likeMini {width:110px; float:left;}
+#facebook_shareMini {width:100px; float:left;}
+#mixi_likeMini {width:110px; float:left;}
+#mixi_checkMini {width:80px; float:left;}
+#google_plusMini {width:60px; float:left;}
+#greeMini {width:50px; float:left;}
+#evernoteMini {width:50px; float:left;}
+#hatenaMini {width:50px; float:left;}
+
+#googleBookMarkMini{width:30px; float:left;}
+#yahooBookMarkMini{width:30px; float:left;}
+#tumblrMini{width:30px; float:left;}
+#plurkMini{width:30px; float:left;}
+#atodeMini{width:80px; float:left;}
+#newsingMini{width:30px; float:left;}
+#choixMini{width:30px; float:left;}
+#buzzurlMini{width:30px; float:left;}
+
+
+/* type middle
+-------------------------------------------*/
+#twitterMiddle {width:100px; float:left;}
+#facebook_likeMiddle {width:110px; float:left;}
+#facebook_shareMiddle {width:100px; float:left;}
+#mixi_likeMiddle {width:110px; float:left;}
+#mixi_checkMiddle {width:90px; float:left;}
+#google_plusMiddle {width:110px; float:left;}
+#greeMiddle {width:90px; float:left;}
+#evernoteMiddle {width:90px; float:left;}
+#hatenaMiddle {width:90px; float:left;}
+
+#googleBookMarkMiddle{width:30px; float:left;}
+#yahooBookMarkMiddle{width:30px; float:left;}
+#tumblrMiddle{width:80px; float:left;}
+#plurkMiddle{width:30px; float:left;}
+#atodeMiddle{width:80px; float:left;}
+#newsingMiddle{width:30px; float:left;}
+#choixMiddle{width:30px; float:left;}
+#buzzurlMiddle{width:30px; float:left;}
+
+
+/* type large
+-------------------------------------------*/
+#twitterLarge {width:100px; float:left;}
+#facebook_likeLarge {width:110px; float:left;}
+#facebook_shareLarge {width:100px; float:left;}
+#mixi_likeLarge {width:110px; float:left;}
+#mixi_checkLarge {width:90px; float:left;}
+#google_plusLarge {width:90px; float:left;}
+#greeLarge {width:90px; float:left;}
+#evernoteLarge {width:90px; float:left;}
+#hatenaLarge {width:90px; float:left;}
+
+#googleBookMarkLarge{width:30px; float:left;}
+#yahooBookMarkLarge{width:30px; float:left;}
+#tumblrLarge{width:90px; float:left;}
+#plurkLarge{width:80px; float:left;}
+#atodeLarge{width:80px; float:left;}
+#newsingLarge{width:30px; float:left;}
+#choixLarge{width:30px; float:left;}
+#buzzurlLarge{width:30px; float:left;}
+

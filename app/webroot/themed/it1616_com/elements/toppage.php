@@ -1,5 +1,5 @@
 <div id="top-books">
-
+<div id="books-title">岡崎太郎の著書<span class="more"><a href="/books/archives/category/books/">>>もっと見る</a></span></div>
 <ul class="bxslider">
   <li><?php $bcBaser->img('./top/bxslider/ureru.png',array('url' => '/books/archives/1')); ?></li>
   <li><?php $bcBaser->img('./top/bxslider/moukaru.png',array('url' => '/books/archives/2')); ?></li>
