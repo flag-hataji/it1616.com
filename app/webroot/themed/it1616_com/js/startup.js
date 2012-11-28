@@ -38,5 +38,14 @@ $(document).ready(function(){
         slideWidth : 90
 
     });
+	
+    //backToTopがクリックされたら上に戻る
+    $('.to-top a').click(function() {
+            $('body,html').animate({
+                    scrollTop:0
+            })
+            return false
+    });
+
 
 });

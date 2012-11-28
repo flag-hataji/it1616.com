@@ -51,14 +51,14 @@
         <div id="Alfa">
             <div id="ContentsBody" class="clearfix">
 
-            <?php if($bcBaser->isTop()): ?>
-                <?php $bcBaser->element('toppage') ?><!--TOPPAGE-->
-            <?php else: ?>
+            <?php if($bcBaser->isTop()): ?><!--TOPPAGE-->
+                <?php $bcBaser->element('toppage') ?>
+            <?php else: ?><!--それ以外ページ-->
                 <div id="Navigation">
                         <?php $bcBaser->element('navi',array('title_for_element'=>$bcBaser->getContentsTitle())); ?>
                 </div>
 
-                <div id="subpage"  ><!--それ以外ページ-->
+                <div id="subpage"  >
                     <?php $bcBaser->content() ?>
                     <div class="to-top"> <a href="#Page">ページトップへ戻る</a> </div>
                 </div>
