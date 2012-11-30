@@ -1,17 +1,14 @@
 <div id="top-books">
 <div id="books-title">岡崎太郎の著書<span class="more"><a href="/books/archives/category/books/">>>もっと見る</a></span></div>
 <ul class="bxslider">
+  <li><?php $bcBaser->img('./top/bxslider/Survival.png',array('url' => '/books/archives/5')); ?></li>
+  <li><?php $bcBaser->img('./top/bxslider/yume-mukeikaku.png',array('url' => '/books/archives/6')); ?></li>
+  <li><?php $bcBaser->img('./top/bxslider/100knock.png',array('url' => '/books/archives/7')); ?></li>
+  <li><?php $bcBaser->img('./top/bxslider/yume-jitugen.png',array('url' => '/books/archives/8')); ?></li>
+  <li><?php $bcBaser->img('./top/bxslider/yumetore.png',array('url' => '/books/archives/9')); ?></li>
   <li><?php $bcBaser->img('./top/bxslider/ureru.png',array('url' => '/books/archives/1')); ?></li>
   <li><?php $bcBaser->img('./top/bxslider/moukaru.png',array('url' => '/books/archives/2')); ?></li>
   <li><?php $bcBaser->img('./top/bxslider/gekiteki.png',array('url' => '/books/archives/3')); ?></li>
-  <li><?php $bcBaser->img('./top/bxslider/book_02.png',array('url' => '/book_01')); ?></li>
-  <li><?php $bcBaser->img('./top/bxslider/book_03.png',array('url' => '/book_01')); ?></li>
-  <li><?php $bcBaser->img('./top/bxslider/book_04.png',array('url' => '/book_01')); ?></li>
-  <li><?php $bcBaser->img('./top/bxslider/book_05.png',array('url' => '/book_01')); ?></li>
-  <li><?php $bcBaser->img('./top/bxslider/book_06.png',array('url' => '/book_01')); ?></li>
-  <li><?php $bcBaser->img('./top/bxslider/book_07.png',array('url' => '/book_01')); ?></li>
-  <li><?php $bcBaser->img('./top/bxslider/book_08.png',array('url' => '/book_01')); ?></li>
-  <li><?php $bcBaser->img('./top/bxslider/book_09.png',array('url' => '/book_01')); ?></li>
 </ul>
     <?php  //$bcBaser->img('./top/book_bg.png'); ?>
 </div>

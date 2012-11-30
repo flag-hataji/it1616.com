@@ -3,7 +3,7 @@
 <div id="sidebox-app">
 <?php $bcBaser->img('side/app_01.png',array('url' => '/books/archives/4')); ?>
 <?php //$bcBaser->img('side/app_02.png',array('url' => '/app02')); ?>
-<?php $bcBaser->img('side/right_motiv.png',array('url' => '/m-sheet')); ?>
+<?php $bcBaser->img('side/right_motiv.png',array('url' => 'http://m-sheet.com/')); ?>
 </div>
 </div>
 <div id="facebook">
@@ -23,7 +23,7 @@
 
 <div id="sidebox-contact"><?php $bcBaser->img('side/right_tel.png',array('url' => '/contact','alt'=>'お問い合わせ')); ?></div>
 
-<div id="sidebox-books">
+<div id="sidebox-books" style="display: none;">
     <div id="sidebox-books-top"><?php $bcBaser->Img('side/right_book_bg_top.png') ;?></div>
     aaaa
     <div id="sidebox-books-un"><?php $bcBaser->Img('side/right_book_bg_un.png') ;?></div>

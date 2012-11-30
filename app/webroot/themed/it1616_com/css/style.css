@@ -841,10 +841,12 @@ ul#Menu li a.m7:hover{opacity:0.8;}
 #top-news-l{
 	float:left;
 	width:357px;
+        height: 340px;
 }
 #top-news-r{
 	float:right;
 	width:356px;
+        height: 340px;
 }
 .top-news{
     background: #FFFFFF;
@@ -1056,6 +1058,16 @@ ul#Menu li a.m7:hover{opacity:0.8;}
     color: #666;
 }
 
+#okazaki-enkaku{
+    margin: 0 20px;
+}
+#okazaki-enkaku td{
+    padding: 10px;
+    vertical-align: top;
+}
+#okazaki-enkaku .odd{
+	background: #EEE;
+}
 
 /*contact*/
 

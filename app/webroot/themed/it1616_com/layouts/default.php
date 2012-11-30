@@ -11,6 +11,7 @@
 <?php $bcBaser->title() ?>
 <?php $bcBaser->metaDescription() ?>
 <?php $bcBaser->metaKeywords() ?>
+<meta property="og:image" content="http://it1616.com/it1616-favi.png" />
 <?php $bcBaser->icon() ?>
 <?php $bcBaser->rss('ニュースリリース RSS 2.0', '/news/index.rss') ?>
 <?php $bcBaser->css('style') ?>

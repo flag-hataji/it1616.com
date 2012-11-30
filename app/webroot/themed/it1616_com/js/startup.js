@@ -47,5 +47,8 @@ $(document).ready(function(){
             return false
     });
 
+    //tableの偶数奇数でCSS分ける
+    $("tr:nth-child(odd)").addClass("odd");
+    $("tr:nth-child(even)").addClass("even");
 
 });
