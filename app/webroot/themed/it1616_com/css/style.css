@@ -41,7 +41,7 @@ li a {
 	zoom: 1;
 }
 table.row-table-01 {
-	width:710px;
+	width:690px;
 	border-collapse: collapse;
 	border-spacing: 0;
         margin:0 auto;
@@ -572,6 +572,22 @@ div.mainback {
 	text-indent:-3000px;
 	text-align:left;
 }
+#side-twitter{
+    margin:15px 0 10px 0;
+}
+.timeline-footer{
+    display: none;
+}
+.timeline-header{
+    background:  rgba(0, 0, 0, 0.1);
+}
+.twitter-timeline{
+    width: 235px;
+}
+#sidebox-contact{
+    padding-bottom: 10px;
+}
+
 
 /* linkbox
 ----------------------------------------------- */
@@ -597,6 +613,7 @@ div.tweet {
 /* BaseMargin
 ----------------------------------------------- */
 .section {
+        padding:0 20px;
 	margin-bottom:20px;
 	clear: both;
 }
@@ -680,6 +697,11 @@ div.tweet {
 	vertical-align: top;
 	zoom: 1;
 }
+/*mail
+-----------------------------------------------*/
+.mail-description{
+    padding:0 20px;
+}
 
 /* Blog
 ----------------------------------------------- */
@@ -711,7 +733,7 @@ div.tweet {
 
 #BlogComment {
 	margin-top:40px;
-	padding:0 10px;
+	padding:0 20px;
 }
 #BlogCommentList {
 	padding:10px 20px;
@@ -727,6 +749,9 @@ div.tweet {
 }
 #BlogCommentAddForm textarea{
 	width:450px;
+}
+#contentsNavi{
+    margin:0 20px;
 }
 /* calendar
 ----------------------------------------------- */
@@ -1027,6 +1052,7 @@ ul#Menu li a.m7:hover{opacity:0.8;}
 }
 .top-contents-link{
     padding-left:20px;
+    font-size: 12px;
 }
 
 
@@ -1112,7 +1138,6 @@ ul#Menu li a.m7:hover{opacity:0.8;}
 .row-table-01 th,.row-table-01 td{
     font-weight:normal;
     border-bottom: 1px #EDEDED solid;
-    line-height: 3;
 }
 .row-table-01 input,.row-table-01 input select{
     height: 25px;
