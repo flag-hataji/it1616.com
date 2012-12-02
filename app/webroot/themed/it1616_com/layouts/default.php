@@ -61,7 +61,7 @@
 
                 <div id="subpage"  >
                     <?php $bcBaser->content() ?>
-                    <div class="to-top"> <a href="#Page">ページトップへ戻る</a> </div>
+                    <div class="to-top"> <a href="#Page"><?php $bcBaser->Img('icons_up.png') ;?>ページトップへ戻る</a> </div>
                 </div>
             <?php endif ?>
 
