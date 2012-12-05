@@ -14,7 +14,7 @@ $(function(){
 });
 </script>
 
-<h3 class="contents-head" style="padding-left:15px;">
+<h3 class="contents-head">
 	<?php $bcBaser->contentsTitle() ?>
 </h3>
 <div class="post">

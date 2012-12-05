@@ -326,7 +326,9 @@ h3.contents {
 }
 
 h3.contents-head {
-	width: 712px;
+    line-height: 1.6;
+    padding-top: 30px;
+    padding-bottom: 10px;
 }
 h4.contents-head {
         font-weight: normal;
