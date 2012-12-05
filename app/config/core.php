@@ -69,7 +69,7 @@
  * Turn off all caching application-wide.
  *
  */
-	Configure::write('Cache.disable', true);
+	Configure::write('Cache.disable', false);
 /**
  * Enable cache checking.
  *
@@ -98,8 +98,9 @@
  * To use database sessions, execute the SQL file found at /app/config/sql/sessions.sql.
  *
  */
-	Configure::write('Session.save', 'session');
-/**
+//	Configure::write('Session.save', 'session');
+	Configure::write('Session.save', 'cache');
+        /**
  * The name of the table used to store CakePHP database sessions.
  *
  * 'Session.save' must be set to 'database' in order to utilize this constant.
@@ -122,6 +123,7 @@
  * @link http://php.net/session_name
  */
 	Configure::write('Session.cookie', 'BASERCMS');
+
 /**
  * Session time out time (in seconds).
  * Actual value depends on 'Security.level' setting.
@@ -226,21 +228,20 @@
  *      'password' => 'password', //plaintext password (xcache.admin.pass)
  *	));
  *
- *
- * Memcache (http://www.danga.com/memcached/)
- *
- * 	 Cache::config('default', array(
- *		'engine' => 'Memcache', //[required]
- *		'duration'=> 3600, //[optional]
- *		'probability'=> 100, //[optional]
- * 		'prefix' => Inflector::slug(APP_DIR) . '_', //[optional]  prefix every cache file with this string
- * 		'servers' => array(
- * 			'127.0.0.1:11211' // localhost, default port 11211
- * 		), //[optional]
- * 		'compress' => false, // [optional] compress data in Memcache (slower, but uses less memory)
- *	));
- *
  */
+
+//        Memcache (http://www.danga.com/memcached/)
+  	 Cache::config('default', array(
+ 	'engine' => 'Memcache', //[required]
+ 	'duration'=> 3600, //[optional]
+ 	'probability'=> 100, //[optional]
+ 		'prefix' => Inflector::slug(APP_DIR) . '_', //[optional]  prefix every cache file with this string
+ 		'servers' => array(
+ 			'127.0.0.1:11211' // localhost, default port 11211
+ 		), //[optional]
+ 		'compress' => false, // [optional] compress data in Memcache (slower, but uses less memory)
+ ));
+ 
 	//Cache::config('default', array('engine' => 'File'));
 /**
  * include install settings
